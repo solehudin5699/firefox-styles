@@ -1,0 +1,37 @@
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+  .click-target-container *,
+  .top-sites-list * {
+    color: #fff !important ;
+    text-shadow: 2px 2px 2px #000 !important ;
+  }
+
+  body {
+    background: url(./bg-debian.jpg) !important ;
+    background-size: cover !important ;
+    /* background-color: #000 !important; */
+  }
+
+  .top-site-outer .tile {
+    border-radius: 50% !important;
+    /* background-color: #800000 !important; */
+  }
+
+  .search-wrapper .search-handoff-button,
+  .search-wrapper input {
+    border-radius: 26px !important;
+  }
+
+  li.top-site-outer {
+    /* border-radius: 24px !important; */
+    width: 120px !important;
+    height: 140px !important;
+    /* padding: 12px 8px !important; */
+  }
+  /* li.top-site-outer:hover {
+    background-color: #80000081 !important;
+  } */
+
+  div.search-wrapper div.logo-and-wordmark {
+    display: none !important;
+  }
+}
